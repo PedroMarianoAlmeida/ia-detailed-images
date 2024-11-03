@@ -1,17 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro'
-import { Button } from '@/components/ui/button'
-import { ModeToggle } from '@/components/ModeToggle'
 import AuthenticatorAws from '@/components/AuthenticatorAws'
 
 import '@/styles/globals.css'
 ---
 
-<Layout title="Welcome to Astro.">
-	<ModeToggle client:load />
+<Layout title="IA Detailed Image">
 	<main>
-		<Button>Hello World</Button>
-		<AuthenticatorAws client:load />
+		<AuthenticatorAws client:load render={(<></>)} />
 	</main>
 </Layout>
 
