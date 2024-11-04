@@ -1,0 +1,12 @@
+{
+  "resourceName": "iaDetailedImagesUserDailyUsage",
+  "tableName": "iaDetailedImagesUserDailyUsage",
+  "partitionKey": {
+    "fieldName": "userId",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": [
+    "iaDetailedImagesUserDailyUsageTrigger9d8e77ac"
+  ]
+}
