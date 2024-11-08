@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "paths": {
+    "/tool-daily-usage": {
+      "name": "/tool-daily-usage",
+      "lambdaFunction": "backend3nov67da1602",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}

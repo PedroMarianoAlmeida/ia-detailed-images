@@ -1,4 +1,20 @@
 {
+  "api": {
+    "tollDailyUsage": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "backend3nov67da1602"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
   "auth": {
     "backend3nov1a590e51": {
       "customAuth": false,
@@ -28,6 +44,25 @@
     }
   },
   "function": {
+    "backend3nov67da1602": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributeEnvMap": {
+            "Arn": "TABLE_ARN",
+            "Name": "TABLE_NAME"
+          },
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "storage",
+          "resourceName": "iaDetailedImagesUserDailyUsage"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
     "iaDetailedImagesUserDailyUsageTrigger9d8e77ac": {
       "build": true,
       "dependsOn": [
