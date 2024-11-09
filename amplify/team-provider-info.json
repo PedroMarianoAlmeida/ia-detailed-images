@@ -9,14 +9,29 @@
       "UnauthRoleName": "amplify-backend3nov-dev-2fc88-unauthRole",
       "StackName": "amplify-backend3nov-dev-2fc88",
       "StackId": "arn:aws:cloudformation:us-east-1:257056548605:stack/amplify-backend3nov-dev-2fc88/9270ab20-999c-11ef-847e-12436fff85ab",
-      "AmplifyAppId": "d3164s4i6pxohb"
+      "AmplifyAppId": "d3164s4i6pxohb",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-backend3nov-dev-2fc88-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
     },
     "categories": {
       "auth": {
         "backend3nov1a590e51": {}
       },
       "function": {
-        "backend3nov67da1602": {}
+        "backend3nov67da1602": {
+          "deploymentBucketName": "amplify-backend3nov-dev-2fc88-deployment",
+          "s3Key": "amplify-builds/backend3nov67da1602-5861784a764969535671-build.zip"
+        },
+        "iaDetailedImagesUserDailyUsageTrigger9d8e77ac": {
+          "deploymentBucketName": "amplify-backend3nov-dev-2fc88-deployment",
+          "s3Key": "amplify-builds/iaDetailedImagesUserDailyUsageTrigger9d8e77ac-4f346572446b38704159-build.zip"
+        }
+      },
+      "storage": {
+        "iaDetailedImagesUserDailyUsage": {}
+      },
+      "api": {
+        "crudDailyUsageTable": {},
+        "tollDailyUsage": {}
       }
     }
   }

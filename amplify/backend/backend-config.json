@@ -80,6 +80,40 @@
       "service": "Lambda"
     }
   },
+  "parameters": {
+    "AMPLIFY_function_backend3nov67da1602_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "backend3nov67da1602"
+        }
+      ]
+    },
+    "AMPLIFY_function_backend3nov67da1602_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "backend3nov67da1602"
+        }
+      ]
+    },
+    "AMPLIFY_function_iaDetailedImagesUserDailyUsageTrigger9d8e77ac_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "iaDetailedImagesUserDailyUsageTrigger9d8e77ac"
+        }
+      ]
+    },
+    "AMPLIFY_function_iaDetailedImagesUserDailyUsageTrigger9d8e77ac_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "iaDetailedImagesUserDailyUsageTrigger9d8e77ac"
+        }
+      ]
+    }
+  },
   "storage": {
     "iaDetailedImagesUserDailyUsage": {
       "providerPlugin": "awscloudformation",
